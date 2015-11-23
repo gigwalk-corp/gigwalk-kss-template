@@ -3,7 +3,7 @@ import sass from 'gulp-sass';
 
 export function scssTask() {
     return gulp.src('scss/*.scss')
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./public'));
 }
 

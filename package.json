@@ -1,6 +1,6 @@
 {
   "name": "gigwalk-kss-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default template for kss-node.",
   "main": "template_config.js",
   "scripts": {

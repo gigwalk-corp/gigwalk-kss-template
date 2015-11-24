@@ -14,4 +14,4 @@ export function watchScss() {
 gulp.task('watch', ['watch:scss']);
 gulp.task('watch:scss', watchScss);
 gulp.task('scss', scssTask);
-gulp.task('default', ['sass']);
+gulp.task('default', ['scss']);
